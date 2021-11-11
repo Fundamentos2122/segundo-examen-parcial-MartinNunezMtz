@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="titulo titulo425">
+        <br>
+        <h1>Lista de Tareas</h1>
+        <br>
+    </div>
+
+
+
+    <div class="inicial inicial425">
+        <div class="w50 tex-left">
+           <input type="checkbox">
+           <h4>Ver todos</h4> 
+        </div>
+        
+        <div class="w50 tex-right">
+            <a href="#miModal" class="btn">
+            <button class="Bnuevo">Nueva</button>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div id="miModal" class="modal">
+        <div class="modal-contenido">
+
+            <div class="flex"> 
+                <div class="w50 tex-left">
+                    <h2>Agregar Tarea</h2>
+                </div>
+                
+                <div class="w50 tex-right">
+                    <a href="#">X</a>
+                </div>
+            </div>
+
+            <form action="" name="tareaForm">
+                <div class="flex">
+                    <div style="width: 40%;">
+                        <h3 class="Ctarea" name="Titulo">Titulo</h3>
+                        <h3 style="margin: 15% 0px 30% 0px;">Descripción</h3>
+                        <h3 class="Ctarea">Fecha</h3>
+                    </div>
+                    
+                    <div style="width: 60%;">
+                        <input type="text" style="width: 100%; height: 15%;" class="Ctarea">
+                        <textarea name="Descripcion" id="" style="width: 100%; height: 30%;"></textarea>
+                        <input type="date" style="width: 100%; height: 15%;" class="Ctarea">
+                    </div>
+                    
+                </div>
+    
+                <div class="tex-right">
+                    <button class="Bguardar">Guardar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="tareas tareas425">
+        <div id="tareas" class="Tborder-top">
+            <!--<div>
+                <h2>Titulo</h2>
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas similique ipsa. Delectus laborum fuga rem saepe omnis dolorum ut mollitia, 
+                quisquam eos, voluptatum velit! Unde quibusdam similique provident est.
+            </div>
+            <div class="Talign-right">
+                <input type="checkbox">
+                Completada
+            </div>-->
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

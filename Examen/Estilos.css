@@ -1,0 +1,112 @@
+.modal-contenido{
+    background-color:white;
+    width: 500px;
+    padding: 10px 20px;
+    margin: 5% auto;
+    position: relative;
+}
+.modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+}
+
+#miModal:target{
+    opacity:1;
+    pointer-events:auto;
+}
+
+.titulo{
+    text-align: center; 
+    margin-left: 25%; 
+    margin-right: 25%;
+    background-color: darkcyan;
+    color: white;
+}
+
+.inicial{
+    display: flex;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.btn{
+    text-align: right;
+}
+
+.tex-right{
+    text-align: right;
+    margin-top: 3%;
+}
+
+.tex-left{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.w50{
+    width: 50%;
+}
+
+.Ctarea{
+    margin: 5% 0px 5% 0px;
+}
+
+.Bguardar{
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+}
+
+.Bnuevo{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+
+.tareas{
+    margin-left: 25%; 
+    margin-right: 25%;
+}
+
+/****************Tareas******************/
+.Tborder-top{
+    border-top: solid 1px gray;
+}
+
+.Talign-right{
+    text-align: right;
+}
+
+
+@media (max-width: 426px) {
+    .titulo425{
+        text-align: center; 
+        background-color: black;
+        color: white;
+        margin-left: 0%; 
+        margin-right: 0%;
+    }
+
+    .inicial425{
+        display: flex;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .tareas425{
+        margin-left: 0%; 
+        margin-right: 0%;
+    }
+}
